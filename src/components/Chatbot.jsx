@@ -18,7 +18,7 @@ function Chatbot() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/chatbot", {
+      const response = await fetch("https://ai-chatbot-backend-xliq.onrender.com/chatbot", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
